@@ -5,9 +5,9 @@
       <div class="col-12">
         <transition
           enter-class=""
-          enter-active-class="animated fadeIn duration-.002s"
+          enter-active-class="animated fadeIn"
           leave-class=""
-          leave-active-class="animated fadeOut  duration-.002s"
+          leave-active-class="animated fadeOut"
           mode="out-in"
         >
           <router-view></router-view>
@@ -43,4 +43,7 @@
     padding: 30px
     .header
       margin-bottom: 30px
+
+  .animated
+    animation-duration: .5s
 </style>

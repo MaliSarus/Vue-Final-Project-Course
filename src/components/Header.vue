@@ -42,6 +42,11 @@
 
   export default {
     name: "Header",
+    data: function() {
+        return {
+
+        }
+    },
     computed: {
       funds() {
         return this.$store.getters.funds;
