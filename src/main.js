@@ -16,7 +16,7 @@ const router = new VueRouter({
   mode: 'history',
   routes
 });
-
+https://final-vue-8a0b4.firebaseio.com/
 new Vue({
   el: '#app',
   router,
