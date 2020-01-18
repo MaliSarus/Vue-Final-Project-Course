@@ -6,7 +6,7 @@ import routes from './routes/routes';
 import store from './store/store'
 
 Vue.use(VueRouter);
-Vue.use(VueResource);
+Vue.use(VueResource );
 
 Vue.filter('currency', (value)=>{
   return '$' + value.toLocaleString();
